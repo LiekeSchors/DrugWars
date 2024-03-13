@@ -38,8 +38,7 @@ Regeln für das Spiel:
 - Nach 30 Tagen ist das Spiel zu Ende. Dann werden Gewinn und Schulden verrechnet.
 
 
-Nächstes Level nach 30 Tagen mit Ausgangswerten aus vorigem Level?
-Drogen können geklaut werden.
-
 - Ergänzen eigener Regeln
+   - Nächstes Level nach 30 Tagen mit Ausgangswerten aus vorigem Level?
+   - Drogen können geklaut werden.
 - Textoberfläche realisieren: https://github.com/mabe02/lanterna
