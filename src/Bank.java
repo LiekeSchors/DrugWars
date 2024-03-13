@@ -1,10 +1,19 @@
 public class Bank {
-
-    private final double DEBT_INTEREST = 0.1; // 10%
     private final double SAVINGS_INTEREST = 0.55; // 5.5%
 
+    private double savings;
 
-    // Cash und depts werden hier geaendert.
-    // tag wird hier auch benoetigt
+    public double getSavings() {
+        return savings;
+    }
+
+    public void setSavings(double savings) {
+        this.savings = savings;
+    }
+
+    public void applySavingsInterest() {
+        savings += savings * SAVINGS_INTEREST;
+    }
+
 
 }

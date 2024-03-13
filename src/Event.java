@@ -1,3 +1,6 @@
 abstract class Event {
-    abstract void process();
+
+
+    public abstract void process(Player player);
+
 }
