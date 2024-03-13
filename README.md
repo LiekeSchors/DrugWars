@@ -1,3 +1,5 @@
+NICHT AKTUELL!
+
 Regeln für das Spiel:
 V Am Anfang hat der Spieler 2.000$ an cash und 0$ an Schulden
 V Drogen im Originalspiel: Cocaine, Heroin, Acid, Grass, Speed, Ludes. Diese kann der Spieler in einer Stadt kaufen und
