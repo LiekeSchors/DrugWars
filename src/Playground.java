@@ -1,7 +1,6 @@
 public class Playground {
     public static void main(String[] args) {
 
-//        Scanner sc = new Scanner(System.in);
         Information.showGameInformation();
         String username = Information.chooseUsername();
 
@@ -10,20 +9,21 @@ public class Playground {
 
         Information.chooseStartCity(player);
 
-        Event robbing = new Robbing();
-        Event findDrugs = new FindDrugs();
+
         boolean nextDay = false;
 
         while (player.getDay() < 30) {
             Player.setDay(player.getDay() + 1);
             player.startOfDay();
+            //Preise ändern sich
+
 
             while (!nextDay) {
                 int choice = Information.nextAction(player);
                 if (!player.getCurrentCity().getName().equalsIgnoreCase("Bronx") || choice <= 3) {
-                    SwitchMethods.basicFunctions(player, choice);
+                    SwitchMethods.basicActions(player, choice);
                 } else {
-                    SwitchMethods.bronxFunctions(player, choice);
+                    SwitchMethods.bronxActions(player, choice);
                 }
 
                 if (choice == 3) {

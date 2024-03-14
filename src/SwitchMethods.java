@@ -3,7 +3,7 @@
  */
 public class SwitchMethods {
 
-    public static void basicFunctions(Player player, int choice) {
+    public static void basicActions(Player player, int choice) {
         switch (choice) {
             case 1:
                 player.buy(player);
@@ -19,8 +19,8 @@ public class SwitchMethods {
         }
     }
 
-    public static void bronxFunctions(Player player, int choice) {
-        switch(choice) {
+    public static void bronxActions(Player player, int choice) {
+        switch (choice) {
             case 4:
                 player.addMoneyToBankAccount(player);
                 break;

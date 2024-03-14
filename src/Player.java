@@ -131,7 +131,7 @@ public class Player {
         }
     }
 
-    public ArrayList<Drugs> readInputToArrayList() {
+    private ArrayList<Drugs> readInputToArrayList() {
         ArrayList<Drugs> playerDrugs = new ArrayList<>();
         String playerInput = sc.nextLine();
         String[] playerInputSplitted = playerInput.split(", ");
@@ -192,6 +192,7 @@ public class Player {
         }
 
         // Random Event happening
+        RandomGameEvents.next().process(this);
 
 
         double travelCosts = distance * TRAVEL_COSTS_PER_KM;
